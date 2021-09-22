@@ -1,0 +1,210 @@
+@charset "utf-8";
+.logo{
+border: 2px solid white;
+box-shadow: 0px 0px 2px grey;
+border-radius: 50%;
+padding: 3px;
+}
+nav{
+-webkit-box-shadow: 0px 8px 10px 0px #ddd;
+-moz-box-shadow: 0px 8px 10px 0px #ddd;
+box-shadow: 0px 8px 10px 0px #ddd;
+}
+#home{
+background-color: white;
+overflow: hidden;
+padding-bottom: 0;
+padding-top: 0;
+}
+#home h1{
+margin-top: 20px;
+}
+.main-font{
+font-family: 'Fredoka One', cursive;
+color: #037DFF;
+}
+@media(max-width: 768px)
+{
+#home p{
+text-align: justify;
+}
+}
+.service-icon{
+width: 50px;
+height: 50px;
+background-color: white;
+box-shadow: 0px 0px 3px grey;
+border-radius: 50%;
+font-size: 30px;
+border: 1px solid #ccc;
+padding-top: 7px;
+color: #03FDF0;
+}
+#services,#client,#pricing{
+margin-bottom: 0;
+overflow: hidden;
+}
+#pricing{
+padding-bottom: 0;
+}
+.service-header{
+margin-bottom: 40px;
+}
+#services span{
+letter-spacing: 1px;
+}
+#services h4{
+color: #FC3164;
+}
+.top-menu .nav-link.active{
+background-color: black;
+color: white !important;
+box-shadow: 0px 0px 5px black;
+border-bottom: 3px solid white;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+#client-pic{
+width:150px;
+height:150px;
+border-radius: 50%;
+border: 2px solid white;
+box-shadow: 0px 0px 12px grey;
+margin-bottom: 10px;
+padding: 2px;
+}
+.client-social-icon{
+height: 30px;
+width: 30px;
+margin: 2px;
+color: black;
+border:1px solid black;
+padding: 5px;
+margin-top: 30px;
+}
+.client-social-icon:hover{
+background-color: black;
+color: white;
+transition: 0.5s;
+border-radius: 7px;
+}
+.carousel-indicators li{
+background-color: #323232 !important;
+width: 20px;
+height: 10px;
+box-sizing: border-box;
+border-radius: 50%;
+}
+#brand-hide{
+display: none;
+}
+#go-top i{
+color: red;
+position: fixed;
+bottom: 50px;
+right: 5%;
+background-color: white;
+width: 40px;
+height: 40px;
+padding: 10px;
+border-radius: 50%;
+box-shadow: 0px 0px 5px black;
+display: none;
+}
+.client-social-icon-footer{
+height: 50px;
+width: 50px;
+margin: 2px;
+color: black;
+border:2px solid black;
+padding: 10px;
+font-size: 25px;
+margin-top: 10px;
+}
+.client-social-icon-footer:hover{
+background-color: #037DFF;
+border: 2px solid #037DFF;
+color: white;
+transition: 0.5s;
+border-radius: 7px;
+}
+.modal-body .nav-link.active{
+color: #DC3545 !important;
+font-weight: bold;
+}
+.modal input:focus,.modal select:focus,.modal textarea:focus{
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
+/* start calendar decoration */
+#ui-datepicker-div{
+z-index: 9999 !important;
+width: fit-content;
+}
+.ui-datepicker-header{
+background-color: #DC3545 !important;
+}
+.ui-datepicker-title{
+color: white !important;
+}
+.ui-datepicker-calendar a.ui-state-default{
+background-color: #FFC107;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+text-align: center;
+padding-top: 7px;
+}
+.ui-datepicker-calendar th{
+background-color: black;
+border: 1px solid white !important;
+color: white;
+}
+.ui-state-highlight{
+background-color: #DC3545 !important;
+color: white !important;
+}
+a.ui-state-default.ui-state-active{
+background-color: #01F8EB;
+color: black;
+border:none;
+}
+.ui-datepicker-prev span,
+.ui-datepicker-next span{
+display: none !important;
+}
+.ui-datepicker-prev,.ui-datepicker-next{
+font-family: FontAwesome;
+text-align: center;
+margin-top: 5px;
+color: white !important;
+}
+.ui-datepicker-prev::before{
+content: "\f100";
+}
+.ui-datepicker-next::after{
+content: "\f101";
+}
+.ui-datepicker-prev:hover,.ui-datepicker-next:hover{
+background-color: inherit !important;
+border: none !important;
+}
+/* end calendar decoration */
+
+/* start radio button */
+.custom-control-input:checked~.custom-control-label::before{
+	background-color: red;
+}
+.custom-control-input:focus~.custom-control-label::before{
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+/* end radio button */
+
+/* start slider coding */
+.custom-range::-webkit-slider-thumb{
+	background-color: red;
+}
+/* end slider coding */

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta lang="en-US">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.1">
+		<title>bootstrap</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.js"></script>
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="350">
+		<!-- navbar coding start -->
+		<div class="text-center p-2" style="background-image: radial-gradient(#E9ECEF,#ccc);">
+			<img src="images/logo.png" alt="logo" width="70">
+			<h1>wapdevelopers.com</h1>
+		</div>
+		<nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
+			<div id="brand-hide">
+				<a href="#" class="navbar-brand">
+					<img src="images/logo.png" alt="logo" width="40" class="logo">
+				wapdevelopers.com</a>
+			</div>
+			<a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#slider"><i class="fa fa-bars" style="font-size: 35px;color: black"></i></a>
+			<div class="collapse navbar-collapse" id="slider">
+				<ul class="navbar-nav top-menu">
+					<li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+					<li class="nav-item"><a href="#client" class="nav-link">Clients</a></li>
+					<li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
+					<li class="nav-item"><a href="#contact" class="nav-link">Contact us</a></li>
+					<li class="nav-item"><a href="#account" class="nav-link" data-toggle="modal" data-target="#account">Account</a></li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-facebook"></i></a></li>
+					<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-twitter"></i></a></li>
+					<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-google"></i></a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- navbar coding end -->
+		<!-- start home coding -->
+		<div class="jumbotron jumbotron-fluid text-center" id="home">
+			<div class="container">
+				<h1 class="animated fadeIn main-font">WAP MOBILE APP DEVELOPMENT</h1>
+				<P class="animated fadeIn slower">
+					Build Once, Deploy Everywhere; Easily Test, Monitor, and Update Dynamically. App Development Articles. Code Patterns. Training & Tutorials. Join The Community. Types: Artificial Intelligence, Analytics, Node.js, Blockchain, Containers, Serverless.Build Once,<br class="d-none d-lg-block"> Deploy Everywhere; Easily Test, Monitor, and Update Dynamically. App Development Articles. Code Patterns.
+				</P>
+				<img src="images/mobile.png" width="80%" alt="mobile pic" class="animated slideInUp">
+			</div>
+		</div>
+		<!-- end home coding -->
+		<!--start services coding-->
+		<div class="jumbotron jumbotron-fluid bg-light text-center" id="services">
+			<h1 class="main-font service-header">SERVICES</h1>
+			<div class="row">
+				<div class="col-md-4 wow slideInRight">
+					<i class="fa fa-code service-icon"></i>
+					<h4>Mobile App Development</h4>
+					<span>
+						app development is the act or process by which a mobile app is developed for mobile devices and enterprise applications.
+					</span>
+				</div>
+				<div class="col-md-4 ">
+					<i class="fa fa-code service-icon"></i>
+					<h4>Mobile App Development</h4>
+					<span>
+						app development is the act or process by which a mobile app is developed for mobile devices and enterprise applications.
+					</span>
+				</div>
+				<div class="col-md-4 wow slideInLeft">
+					<i class="fa fa-code service-icon"></i>
+					<h4>Mobile App Development</h4>
+					<span>
+						app development is the act or process by which a mobile app is developed for mobile devices and enterprise applications.
+					</span>
+				</div>
+			</div>
+		</div>
+		<!--end services coding-->
+		<!-- start clients carousel coding -->
+		<div class="jumbotron jumbotron-fluid text-center" id="client">
+			<h1 class="main-font service-header">CLIENTS</h1>
+			<div id="myclient" class="carousel slide container" data-ride="carousel" data-interval="5000">
+				<ol class="carousel-indicators">
+					<li data-target="#myclient" data-slide-to="0"></li>
+					<li data-target="#myclient" data-slide-to="1"></li>
+					<li data-target="#myclient" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="images/my.jpg" id="client-pic">
+						<h3>ER. DILLIP</h3>
+						<span>
+							app development is the act or process by which a mobile app is developed<br class="d-none d-lg-block"> for mobile devices and enterprise application
+						</span>
+						<br>
+						<a href="#"><i class="fa fa-facebook client-social-icon"></i></a>
+						<a href="#"><i class="fa fa-twitter client-social-icon"></i></a>
+						<a href="#"><i class="fa fa-google client-social-icon"></i></a>
+					</div>
+					<div class="carousel-item">
+						<img src="images/my.jpg" id="client-pic">
+						<h3>ER. DILLIP</h3>
+						<span>
+							app development is the act or process by which a mobile app is developed<br class="d-none d-lg-block"> for mobile devices and enterprise application
+						</span>
+						<br>
+						<a href="#"><i class="fa fa-facebook client-social-icon"></i></a>
+						<a href="#"><i class="fa fa-twitter client-social-icon"></i></a>
+						<a href="#"><i class="fa fa-google client-social-icon"></i></a>
+					</div>
+					<div class="carousel-item">
+						<img src="images/my.jpg" id="client-pic">
+						<h3>ER. DILLIP</h3>
+						<span>
+							app development is the act or process by which a mobile app is developed<br class="d-none d-lg-block"> for mobile devices and enterprise application
+						</span>
+						<br>
+						<a href="#"><i class="fa fa-facebook client-social-icon"></i></a>
+						<a href="#"><i class="fa fa-twitter client-social-icon"></i></a>
+						<a href="#"><i class="fa fa-google client-social-icon"></i></a>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#myclient" role="button" data-slide="prev" >
+					<i class="fa fa-chevron-left" style="color: black;font-size: 20px;"></i>
+				</a>
+				<a class="carousel-control-next" href="#myclient" role="button" data-slide="next" >
+					<i class="fa fa-chevron-right" style="color: black;font-size: 20px;"></i>
+				</a>
+			</div>
+		</div>
+		<!-- end clients -->
+		<!-- start pricing -->
+		<div class="jumbotron jumbotron-fluid" id="pricing">
+			<h1 class="main-font text-center" style="margin-bottom: 30px;">PRICING</h1>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4 mb-4 px-5 text-center">
+						<div class="card wow slideInLeft">
+							<div class="card-header bg-danger text-light">
+								<h3>STARTER PLANS</h3>
+							</div>
+							<div class="card-body">
+								<h1>$10 /MO</h1>
+								<hr>
+								<span>STATIC APPS</span>
+								<hr>
+								<span>SPECIALLY FOR ANDROID</span>
+								<hr>
+								<span>LOAD TIME FASTER</span>
+								<hr>
+								<span>NO FUTURE UPDATES</span>
+								<hr>
+								<span>NO CUSTOMER SUPPORT</span>
+								<hr>
+								<span>PAID MAINTENANCE</span>
+							</div>
+							<div class="card-footer bg-danger">
+								<button class="btn bg-light p-1"><a href="#" class="text-decoration-none text-dark">More info</a></button>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4 px-5 text-center">
+						<div class="card wow slideInUp">
+							<div class="card-header bg-primary text-light">
+								<h3>STARTER PLANS</h3>
+							</div>
+							<div class="card-body">
+								<h1>$10 /MO</h1>
+								<hr>
+								<span>STATIC APPS</span>
+								<hr>
+								<span>SPECIALLY FOR ANDROID</span>
+								<hr>
+								<span>LOAD TIME FASTER</span>
+								<hr>
+								<span>NO FUTURE UPDATES</span>
+								<hr>
+								<span>NO CUSTOMER SUPPORT</span>
+								<hr>
+								<span>PAID MAINTENANCE</span>
+							</div>
+							<div class="card-footer bg-primary">
+								<button class="btn bg-light p-1"><a href="#" class="text-decoration-none text-dark">More info</a></button>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4 px-5 text-center">
+						<div class="card wow slideInRight">
+							<div class="card-header bg-warning text-light">
+								<h3>STARTER PLANS</h3>
+							</div>
+							<div class="card-body">
+								<h1>$10 /MO</h1>
+								<hr>
+								<span>STATIC APPS</span>
+								<hr>
+								<span>SPECIALLY FOR ANDROID</span>
+								<hr>
+								<span>LOAD TIME FASTER</span>
+								<hr>
+								<span>NO FUTURE UPDATES</span>
+								<hr>
+								<span>NO CUSTOMER SUPPORT</span>
+								<hr>
+								<span>PAID MAINTENANCE</span>
+							</div>
+							<div class="card-footer bg-warning">
+								<button class="btn bg-light p-1"><a href="#" class="text-decoration-none text-dark">More info</a></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end pricing -->
+		<!--start contact -->
+		<div class="jumbotron jumbotron-fluid bg-warning mb-0" id="contact">
+			<div class="container-fluid">
+				<h1 class="main-font text-center">CONTACTS</h1>
+				<div class="row">
+					<div class="col-md-4 px-5">
+						<form autocomplete="off">
+							<div class="form-group">
+								<label for="username">Your name</label>
+								<input type="text" name="username" id="username" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for="username">Phone number</label>
+								<input type="number" name="number" id="number" class="form-control">
+							</div>
+							<div class="form-group">
+								<label id="email">Email id</label>
+								<input type="email" name="email" id="email" class="form-control">
+							</div>
+							<button type="submit" class="btn btn-primary">Send us</button>
+						</form>
+					</div>
+					<div class="col-md-4 px-5 py-2">
+						<h5 class="mb-0">Address</h5>
+					<address>BASTA,BALASORE,ODISHA</address>
+					<h5 class="mb-0">Contact number</h5>
+				<address>+91 9348674847,+91 7181087372</address>
+				<h5 class="mb-0">Website</h5>
+			<address>www.wapdevelopers.com</address>
+			<h5 class="mb-0">Email id</h5>
+		<address>sahudillipkumar466@gmail.com</address>
+	</div>
+	<div class="col-md-4 px-5 py-2">
+		<h5 class="mb-0">Follow us</h5>
+		<a href="#"><i class="fa fa-facebook client-social-icon-footer text-center"></i></a>
+		<a href="#"><i class="fa fa-twitter client-social-icon-footer text-center"></i></a>
+		<a href="#"><i class="fa fa-google client-social-icon-footer text-center"></i></a>
+	</div>
+</div>
+</div>
+</div>
+<!--end contact -->
+<!-- go to top -->
+<a href="#" id="go-top"><i class="fa fa-chevron-up"></i></a>
+<!-- end coding -->
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+<!-- start modal -->
+<div class="modal animated zoomIn" id="account">
+<div class="modal-dialog">
+<div class="modal-content">
+	<i class="fa fa-times-circle text-warning" style="position: absolute;right: 5px;top: 5px;cursor: pointer;z-index: 100000;" data-dismiss="modal"></i>
+	<div class="modal-body">
+		<ul class="nav nav-tabs">
+			<li class="nav-item"><a href="#login" class="nav-link active text-dark" data-toggle="tab">Login</a></li>
+			<li class="nav-item"><a href="#signup" class="nav-link text-dark" data-toggle="tab">Sign up</a></li>
+		</ul>
+		<!-- start tab content -->
+		<div class="tab-content" style="overflow: hidden;">
+			<div id="login" class="tab-pane pt-3 animated slideInDown active">
+				<form autocomplete="off">
+					<div class="form-group">
+						<label for="username">Username</label>
+						<input type="text" name="username" id="username" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="password">Password</label>
+						<input type="password" name="password" id="password" class="form-control">
+					</div>
+					<div class="custom-control custom-switch float-left">
+						<input type="checkbox" class="custom-control-input" id="rem-check">
+						<label class="custom-control-label" for="rem-check">Remember me</label>
+					</div>
+					<button class="btn btn-primary float-right" type="submit">Login</button>
+				</form>
+			</div>
+			<!-- sign up coding start -->
+			<div id="signup" class="tab-pane pt-3 animated slideInDown">
+				<form autocomplete="off">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="input-group mb-3">
+								<div class="input-group-prepend">
+									<span class="input-group-text bg-warning border border-warning">
+										<i class="fa fa-user" style="color: white;"></i>
+									</span>
+								</div>
+								<input type="text" name="firstname" placeholder="Firstname" class="form-control border-left-0 border-warning">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="input-group mb-3">
+								<input type="text" name="lastname" placeholder="Lastname"  class="form-control border-right-0 border-warning">
+								<div class="input-group-append">
+									<span class="input-group-text bg-warning border border-warning">
+										<i class="fa fa-user" style="color: white;"></i>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="input-group mb-3">
+								<div class="input-group-prepend">
+									<span class="input-group-text bg-danger border border-danger" style="color: white;">
+										Gender
+									</span>
+								</div>
+								<select class="form-control border-left-0 border-danger">
+									<option>Male</option>
+									<option>Female</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="input-group mb-3">
+								<input type="text" name="date" class="form-control border-right-0 border-danger" id="custom-date" placeholder="dd/mm/yyyy">
+								<div class="input-group-append">
+									<span class="input-group-text bg-danger border border-danger" style="color: white;">
+										DOB
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="input-group mb-3">
+								<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text bg-dark text-light border-dark">
+										Mobiles
+									</span>
+								</div>
+								<input type="number" name="first number" placeholder="1st number" class="form-control border-dark">
+								<input type="number" name="second number" placeholder="2st number" class="form-control border-dark">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text bg-primary text-light border-primary">
+									Email
+								</span>
+							</div>
+							<input type="email" name="email" placeholder="Email" class="form-control border-primary">
+							</div>
+						</div>
+					</div>
+
+					<ul class="list-group mb-3">
+						<li class="list-group-item bg-success text-light">Occupation</li>
+						<li class="list-group-item border-success">
+							<div class="custom-control custom-radio">
+								<input type="radio" name="occupation" id="student" class="custom-control-input">
+								<label for="student" class="custom-control-label">Student</label>
+							</div>
+						</li>
+						<li class="list-group-item border-success border-top-0">
+							<div class="custom-control custom-radio">
+								<input type="radio" name="occupation" id="proffesional" class="custom-control-input">
+								<label for="proffesional" class="custom-control-label">Proffesional</label>
+							</div>
+						</li>
+					</ul>
+
+					<ul class="list-group list-group-horizontal mb-3">
+						<li class="list-group-item bg-secondary text-light">Income</li>
+						<li class="list-group-item w-100 border-secondary">
+							<input type="range" min="0" max="100" class="custom-range">
+						</li>
+					</ul>
+
+					<div class="custom-file mb-3">
+						<input type="file" accept="image/*" id="upload" class="custom-file-input">
+						<label for="upload" class="custom-file-label">Upload file</label>
+					</div>
+
+					<div class="row">
+						<div class="col-md-12">
+							<div class="input-group mb-3">
+								<div class="input-group-prepend">
+								<span class="input-group-text bg-danger text-light border-danger">
+									Address
+								</span>
+								</div>
+								<textarea name="address" class="form-control border-danger"></textarea>
+							</div>
+						</div>
+					</div>
+
+					<div class="custom-control custom-switch float-left">
+						<input type="checkbox" class="custom-control-input" id="accept-check">
+						<label class="custom-control-label" for="accept-check">I accept</label>
+					</div>
+					<button class="btn btn-danger float-right" type="submit">Sign up</button>
+				</form>
+			</div>
+			<!-- end sign up coding -->
+		</div>
+		<!-- end tab content -->
+	</div>
+	<div class="modal-footer bg-warning">
+		<p class="mx-auto">You don't have an account <a href="#">Create now</a></p>
+	</div>
+</div>
+</div>
+<!-- end modal -->
+</body>
+</html>
