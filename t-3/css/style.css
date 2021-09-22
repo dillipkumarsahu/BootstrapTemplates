@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+
+.my-bg{
+	background-color: #6D0EB1;
+}
+.text-white{
+	color: white;
+}
+.bg-white{
+	background-color: white;
+}
+.navbar a{
+	color: white;
+}
+.add-header,.first-add-header,.second-add-header,.third-add-header{
+	font-family: sans-serif;
+	font-size: 150px;
+	letter-spacing: 10px;
+}
+.add-desc{
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+/*indicators*/
+.carousel-indicators{
+	bottom: -30px;
+}
+.carousel-indicators li.active{
+	background-color: yellow;
+}
+#search-box{
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	width: 475px;
+	z-index: 1000000;
+}
+
+.text-align-justify{
+	text-align: justify;
+}
+.our-story .nav-link.active{
+	color: red;
+	background-image: url(../images/hover.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 10px;
+	background-size: 0 0;
+	-webkit-animation: hover 1s;
+	-moz-animation: hover 1s;
+	-o-animation: hover 1s;
+	animation: hover 1s;
+	animation-fill-mode: forwards;
+}
+@-webkit-keyframes hover{
+	0%{
+		background-size: 0 0;
+	}
+	100%{
+		background-size: 60% 15px;
+	}
+}
+@-moz-keyframes hover{
+	0%{
+		background-size: 0 0;
+	}
+	100%{
+		background-size: 60% 15px;
+	}
+}
+@-o-keyframes hover{
+	0%{
+		background-size: 0 0;
+	}
+	100%{
+		background-size: 60% 15px;
+	}
+}
+@keyframes hover{
+	0%{
+		background-size: 0 0;
+	}
+	100%{
+		background-size: 60% 15px;
+	}
+}
+
+.our-story a.nav-link{
+	color: black;
+	font-weight: bold;
+}
+.our-story a.nav-link:hover{
+	padding-bottom: 10px;
+}
+
+#bg-img-div-people{
+	background-image: url(../images/project-bg.jpg);
+	background-size: 50% 100%;
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+
+
+.study-us .card{
+	width: 250px;
+	height: 300px;
+	overflow: hidden;
+	border:none;
+}
+.study-us .card img,.btn-box{
+	position: absolute;
+	top: 0;
+}
+
+.study-us .card .btn-box{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	display: none;
+}
+.study-us .btn-box div{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	width: 80%;
+	color: white;
+}
+
+.study-us .card:hover img{
+	transform: scale(1.2);
+	transition: 1s;
+}
+
+.study-us .card:hover .btn-box{
+	display: block;
+}
+/*responsive coding*/
+@media(max-width: 768px)
+{
+	#search-box{
+		width: 90%;
+		left: 5%;
+		right: 5%;
+		z-index: 1000;
+	}
+	#header-slider h1{
+		font-size: 30px;
+	}
+	#header-slider p{
+		font-size: 15px;
+	}
+	#bg-img-div-people{
+		background-size: 50% 30%;
+		background-repeat: repeat-x;
+		background-position: bottom left;
+	}
+	#counting-div{
+		padding-top: 70px;
+	}
+	.study-us .card{
+		width: 80%;
+		height: 250px;
+		margin: 0 auto;
+	}
+}
+
+
+@media(max-width: 480px)
+{
+	.our-story ul.nav.nav-tabs a.nav-link{
+		padding: 15px;
+	}
+}
+
+@media(max-width: 320px)
+{
+	.our-story ul.nav.nav-tabs a.nav-link{
+		padding: 8px;
+	}
+}
+

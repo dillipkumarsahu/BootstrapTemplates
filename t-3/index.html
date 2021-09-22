@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta lang="en-US">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.1">
+		<title>bootstrap</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/popper.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+		<!-- start navbar coding -->
+		<nav class="navbar navbar-expand-md my-bg">
+			<a href="#" class="navbar-brand">BRANDNAME</a>
+			<i class="fa fa-bars navbar-toggler nav-icon" style="color: white;font-size: 35px;" data-target="#mobile-menu" data-toggle="collapse"></i>
+			<div class="collapse navbar-collapse" id="mobile-menu">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item mr-5"><a href="#" class="nav-link">HOME</a></li>
+					<li class="nav-item mr-5"><a href="about_us.html" class="nav-link">ABOUT US</a></li>
+					<li class="nav-item mr-5"><a href="contact_us.html" class="nav-link">CONTACT US</a></li>
+					<li class="nav-item"><a href="#search-box" class="nav-link"><i class="fa fa-search" id="search-icon"></i></a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- end navbar coding -->
+		<!--text carousel coding start -->
+		<div class="container-fluid p-lg-5 p-3 text-center my-bg text-white animated slideInDown">
+			<div class="input-group position-absolute collapse animated lightSpeedIn" id="search-box">
+				<input type="search" name="search" class="form-control" placeholder="Search this site">
+				<div class="input-group-append">
+					<button class="btn btn-warning">SEARCH</button>
+				</div>
+			</div>
+			<div class="carousel slide" data-ride="carousel" id="header-slider">
+				<ol class="carousel-indicators">
+					<li data-target="#header-slider" data-slide-to="0" class="active"></li>
+					<li data-target="#header-slider" data-slide-to="1"></li>
+					<li data-target="#header-slider" data-slide-to="2"></li>
+					<li data-target="#header-slider" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item text-whitess active">
+						<h1 class="add-header"></h1>
+						<p class="add-desc mt-3 animated zoomIn slower">BECOME THE LEADER OF THE DESIGN</p>
+						<button class="btn btn-danger text-light px-lg-5 py-lg-3 mr-lg-3 my-lg-5 mb-2 animated zoomIn slower">START A JOURNEY</button>
+						<button class="btn btn-light text-dark px-lg-5 py-lg-3 ml-lg-3 my-lg-5 mb-2 animated zoomIn slower">VIEW ADVANTAGES</button>
+					</div>
+					<div class="carousel-item text-white">
+						<h1 class="first-add-header animated flip slower">LOGO DESIGN</h1>
+						<p class="add-desc mt-3 animated zoomIn slower">BECOME THE LEADER OF THE DESIGN</p>
+						<button class="btn btn-danger text-light px-lg-5 py-lg-3 ml-lg-3 my-lg-5 mb-2 animated zoomIn slower">START A JOURNEY</button>
+						<button class="btn btn-light text-dark px-lg-5 py-lg-3 ml-lg-3 my-lg-5 mb-2 animated zoomIn slower">VIEW ADVANTAGES</button>
+					</div>
+					<div class="carousel-item text-white">
+						<h1 class="second-add-header animated slideInRight slower">HIRE US</h1>
+						<p class="add-desc mt-3 animated zoomIn slower">BECOME THE LEADER OF THE DESIGN</p>
+						<button class="btn btn-danger text-light px-lg-5 py-lg-3 ml-lg-3 my-lg-5 mb-2 animated zoomIn slower">START A JOURNEY</button>
+						<button class="btn btn-light text-dark px-lg-5 py-lg-3 ml-lg-3 my-lg-5 mb-2 animated zoomIn slower">VIEW ADVANTAGES</button>
+					</div>
+					<div class="carousel-item text-white">
+						<h1 class="third-add-header animated fadeIn slower">PREMIUM CLIENT</h1>
+						<p class="add-desc mt-3 animated zoomIn slower">BECOME THE LEADER OF THE DESIGN</p>
+						<button class="btn btn-danger text-light px-lg-5 py-lg-3 ml-lg-3 my-lg-5 mb-2 animated zoomIn slower">START A JOURNEY</button>
+						<button class="btn btn-light text-dark px-lg-5 py-lg-3 ml-lg-3 my-lg-5 mb-2 animated zoomIn slower">VIEW ADVANTAGES</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--text carousel coding end -->
+		<!--start  our story  tabs coding-->
+		<div class="container our-story">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="my-5 mb-4">OUR STORY</h2>
+					<ul class="nav nav-tabs">
+						<li class="nav-item"><a href="#overview" class="nav-link active" data-toggle="tab">Overview</a></li>
+						<li class="nav-item"><a href="#founder" class="nav-link" data-toggle="tab">Founder</a></li>
+						<li class="nav-item"><a href="#mission" class="nav-link" data-toggle="tab">Mission</a></li>
+					</ul>
+					<!-- tabs one -->
+					<div class="tab-content py-3">
+						<div id="overview" class="tab-pane active animated slideInLeft faster">
+							<div class="row">
+								<div class="col-md-7 mb-3">
+									<img src="images/desktop.png" width="100%" class="mt-5">
+								</div>
+								<div class="col-md-5">
+									<h4 class="text-align-justify">
+									Web design encompasses many different skills and disciplines in the production and maintenance of websites.
+									</h4>
+									<p class="text-align-justify">
+										Web designers use a variety of different tools depending on what part of the production process they are involved in.Web designers use both vector and raster graphics editors to create web-formatted imagery or design prototypes. Technologies used to create websites include W3C standards like HTML and CSS, which can be hand-coded or generated by WYSIWYG editing software.
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- tabs two -->
+						<div id="founder" class="tab-pane animated slideInRight faster">
+							<div class="d-flex flex-column flex-lg-row">
+								<div class="card text-center border border-warning">
+									<div class="card-body">
+										<img src="images/founder.jpg" width="200" alt="founder">
+									</div>
+									<div class="card-footer bg-warning">
+										<h5>Mr. Dillip Kumar</h5>
+										<small class="p-0 text-light">founder & ceo</small>
+									</div>
+								</div>
+								<div class="flex-fill">
+									<ul class="list-group mb-2 ml-lg-4">
+										<li class="list-group-item bg-danger text-light">
+											BORN
+											<i class="fa fa-calendar float-right"></i>
+										</li>
+										<li class="list-group-item">
+											<small>
+											12 july 1988 (age 22 years),
+											odisha
+											</small>
+										</li>
+									</ul>
+									<ul class="list-group mb-2 ml-lg-4">
+										<li class="list-group-item bg-danger text-light">
+											EDUCATION
+											<i class="fa fa-book float-right"></i>
+										</li>
+										<li class="list-group-item">
+											<small>
+											F.M. university,bls
+											</small>
+										</li>
+									</ul>
+									<ul class="list-group mb-2 ml-lg-4">
+										<li class="list-group-item bg-danger text-light">
+											PROFILES
+											<i class="fa fa-external-link float-right"></i>
+										</li>
+										<li class="list-group-item">
+											<small>
+											<i class="fa fa-facebook mr-2"></i>
+											<i class="fa fa-twitter mr-2"></i>
+											<i class="fa fa-google mr-2"></i>
+											</small>
+										</li>
+									</ul>
+									<ul class="list-group ml-lg-4">
+										<li class="list-group-item bg-danger text-light">
+											CONTACTS
+											<i class="fa fa-phone float-right"></i>
+										</li>
+										<li class="list-group-item">
+											<small>
+											+91 9345265492,+91 8754896565
+											</small>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- tabs three -->
+						<div id="mission" class="tab-pane">
+							welcome mission
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end story coding tabs coding-->
+		<!-- start what we do -->
+		<div class="jumbotron my-bg rounded-0 mb-0">
+			<div class="p-3">
+				<h2 style="text-align: center;color: white;font-family: teko;letter-spacing: 2px;">WHAT WE DO</h2>
+				<hr style="background-color: #AF24BB;width: 100px;height: 3px;border-radius: 10px;">
+				<div class="row">
+					<div class="col-md-3 my-3">
+						<i class="fa fa-bullhorn" style="color: white;font-size: 35px;float: left;"></i>
+						<h3 style="font-family: teko;float: left;padding: 3px;color: #F5C66A;margin-left: 10px;">MARKETING</h3>
+						<p style="float: left;clear: left;text-align: justify;color: white;">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						</p>
+					</div>
+					<div class="col-md-3 my-3">
+						<i class="fa fa-pencil-square-o" style="color: white;font-size: 35px;float: left;"></i>
+						<h3 style="font-family: teko;float: left;padding: 3px;color: #F5C66A;margin-left: 10px;">COPYWRITING</h3>
+						<p style="float: left;clear: left;text-align: justify;color: white;">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						</p>
+					</div>
+					<div class="col-md-3 my-3">
+						<i class="fa fa-paint-brush" style="color: white;font-size: 35px;float: left;"></i>
+						<h3 style="font-family: teko;float: left;padding: 3px;color: #F5C66A;margin-left: 10px;">GRAPHIC DESIGN</h3>
+						<p style="float: left;clear: left;text-align: justify;color: white;">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						</p>
+					</div>
+					<div class="col-md-3 my-3">
+						<i class="fa fa-code" style="color: white;font-size: 35px;float: left;"></i>
+						<h3 style="font-family: teko;float: left;padding: 3px;color: #F5C66A;margin-left: 10px;">DEVELOPMENT</h3>
+						<p style="float: left;clear: left;text-align: justify;color: white;">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 my-3">
+						<i class="fa fa-camera" style="color: white;font-size: 35px;float: left;"></i>
+						<h3 style="font-family: teko;float: left;padding: 3px;color: #F5C66A;margin-left: 10px;">PHOTO PRODUCTION</h3>
+						<p style="float: left;clear: left;text-align: justify;color: white;">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						</p>
+					</div>
+					<div class="col-md-3 my-3">
+						<i class="fa fa-plane" style="color: white;font-size: 35px;float: left;"></i>
+						<h3 style="font-family: teko;float: left;padding: 3px;color: #F5C66A;margin-left: 10px;">LOGISTICS</h3>
+						<p style="float: left;clear: left;text-align: justify;color: white;">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						</p>
+					</div>
+					<div class="col-md-3 my-3">
+						<i class="fa fa-comment	" style="color: white;font-size: 35px;float: left;"></i>
+						<h3 style="font-family: teko;float: left;padding: 3px;color: #F5C66A;margin-left: 10px;">CONSULTATIONS</h3>
+						<p style="float: left;clear: left;text-align: justify;color: white;">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						</p>
+					</div>
+					<div class="col-md-3 my-3">
+						<i class="fa fa-headphones" style="color: white;font-size: 35px;float: left;"></i>
+						<h3 style="font-family: teko;float: left;padding: 3px;color: #F5C66A;margin-left: 10px;">SOUND DESIGN</h3>
+						<p style="float: left;clear: left;text-align: justify;color: white;">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end what we do -->
+		<!-- start people says coding -->
+		<div class="jumbotron bg-light mb-0 rounded-0" id="bg-img-div-people">
+			<div class="row">
+				<div class="col-md-6 px-lg-5 wow" id="people-say">
+					<h1 class="mb-5">WHAT PEOPLE SAY</h1>
+					<div class="d-flex shadow-lg" style="min-height: 300px;">
+						<div style="background-color: white;" class="flex-fill">
+							<div class="carousel slide" data-ride="carousel" id="client-slider">
+								<div class="carousel-inner">
+									<div class="carousel-item active px-4 py-3">
+										<div class="media">
+											<img src="images/client.jpg" width="80" height="80" alt="client" class="border shadow-sm rounded-circle" alt="client">
+											<div class="media-content pt-3 pl-3">
+												<h5 class="mb-0">Jane Smith</h5>
+												<small>Businessman</small>
+											</div>
+										</div>
+										<span style="line-height: 30px;color: #999;text-align: justify;" class="mt-3 d-block">
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+										</span>
+									</div>
+									<div class="carousel-item px-4 py-3">
+										<div class="media">
+											<img src="images/client.jpg" width="80" height="80" alt="client" class="border shadow-sm rounded-circle" alt="client">
+											<div class="media-content pt-3 pl-3">
+												<h5 class="mb-0">Jane Smith</h5>
+												<small>Businessman</small>
+											</div>
+										</div>
+										<span style="line-height: 30px;color: #999;text-align: justify;" class="mt-3 d-block">
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+										</span>
+									</div>
+									<div class="carousel-item px-4 py-3">
+										<div class="media">
+											<img src="images/client.jpg" width="80" height="80" alt="client" class="border shadow-sm rounded-circle" alt="client">
+											<div class="media-content pt-3 pl-3">
+												<h5 class="mb-0">Jane Smith</h5>
+												<small>Businessman</small>
+											</div>
+										</div>
+										<span style="line-height: 30px;color: #999;text-align: justify;" class="mt-3 d-block">
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="d-flex flex-column justify-content-between p-1" style="background-color: #ED1C94">
+							<i class="fa fa-arrow-circle-right" style="font-size: 35px;color: white;" id="next-client"></i>
+							<i class="fa fa-arrow-circle-left" style="font-size: 35px;color: white;" id="prev-client"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 d-flex flex-column justify-content-around text-center text-light" id="counting-div">
+					<div class="d-flex flex-row justify-content-around">
+						<div class="wow fadeInUp">
+							<i class="fa fa-code" style="color: yellow;font-size: 35px;"></i>
+							<h4 class="mt-3 mb-2" id="num-code">500+</h4>
+							<p>Web Project</p>
+						</div>
+						<div class="wow fadeInUp">
+							<i class="fa fa-desktop" style="color: yellow;font-size: 35px;"></i>
+							<h4 class="mt-3 mb-2" id="num-desktop">410+</h4>
+							<p>Logo Design</p>
+						</div>
+					</div>
+					<div class="d-flex flex-row justify-content-around">
+						<div class="wow fadeInUp">
+							<i class="fa fa-android" style="color: yellow;font-size: 35px;"></i>
+							<h4 class="mt-3 mb-2" id="num-android">600+</h4>
+							<p>App Design</p>
+						</div>
+						<div class="wow fadeInUp">
+							<i class="fa fa-paperclip" style="color: yellow;font-size: 35px;"></i>
+							<h4 class="mt-3 mb-2" id="num-paperclip">200+</h4>
+							<p>Clip Art</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end people says coding -->
+
+	<!--start study with us -->
+	<div class="jumbotron mb-0 bg-white px-3">
+		<div class="container">
+		<h2 class="mb-5">STUDY WITH US</h2>
+		<div class="d-flex justify-content-between study-us flex-column flex-lg-row">
+			<div class="card mb-4 mb-lg-0">
+				<img src="images/t-a.jpg" width="100%" height="100%">
+				<div class="btn-box">
+					<div>
+					<span>Amazing quality of education under live seminars and preparations</span>
+					<button class="btn btn-warning mt-3">BUY NOW</button>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-4 mb-lg-0">
+				<img src="images/t-b.jpg" width="100%" height="100%">
+				<div class="btn-box">
+					<div>
+					<span>Amazing quality of education under live seminars and preparations</span>
+					<button class="btn btn-warning mt-3">BUY NOW</button>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-4 mb-lg-0">
+				<img src="images/t-c.jpg" width="100%" height="100%">
+				<div class="btn-box">
+					<div>
+					<span>Amazing quality of education under live seminars and preparations</span>
+					<button class="btn btn-warning mt-3">BUY NOW</button>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="images/t-d.jpg" width="100%" height="100%">
+				<div class="btn-box">
+					<div>
+					<span>Amazing quality of education under live seminars and preparations</span>
+					<button class="btn btn-warning mt-3">BUY NOW</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<!-- end study with us -->
+
+	<!-- start footer -->
+	<div class="jumbotron rounded-0 mb-0 my-bg px-4 px-lg-5 text-white">
+		<div class="row">
+			<div class="col-md-4">
+				<h2 class="mb-3">GET IN TOUCH</h2>
+				<div class="input-group mb-5">
+					<input type="email" name="email" placeholder="Enter email id to subscribe" class="form-control">
+					<div class="input-group-append">
+						<button class="btn btn-danger">SUBSCRIBE</button>
+					</div>
+				</div>
+
+				<h2>ADDRESS</h2>
+				<address class="mb-5">
+				<i class="fa fa-map-marker"></i>
+				<span>
+					BASTA,BALASORE,ODISHA 756030
+					<br>
+					+91 9865969660,+91 8466649584
+					<br>
+					TOLL FREE : 1800 1800 6245
+				</span>
+				</address>
+
+				<address class="mb-0">
+				<i class="fa fa-map-marker"></i>
+				<span>
+					BASTA,BALASORE,ODISHA 756030
+					<br>
+					+91 9865969660,+91 8466649584
+					<br>
+					TOLL FREE : 1800 1800 6245
+				</span>
+				</address>
+			</div>
+			<div class="col-md-8 px-5">
+				<h2 class="mb-5 text-center text-light mt-5 mt-lg-0">FOLLOW US</h2>
+				<div class="d-flex justify-content-around flex-column flex-lg-row text-center">
+					<i class="fa fa-facebook mb-5 mb-lg-0" style="font-size: 100px;color: white;"></i>
+					<i class="fa fa-twitter mb-5 mb-lg-0" style="font-size: 100px;color: white;"></i>
+					<i class="fa fa-google mb-5 mb-lg-0" style="font-size: 100px;color: white;"></i>
+				</div>
+				<h2 class="mb-5 text-center text-light mt-0 mt-lg-5">OUR TEAM</h2>
+				<div class="d-flex justify-content-around">
+					<img src="images/client.jpg" height="100" width="100" class="rounded-circle mb-5 mb-lg-0">
+					<img src="images/client.jpg" height="100" width="100" class="rounded-circle mb-5 mb-lg-0">
+					<img src="images/client.jpg" height="100" width="100" class="rounded-circle mb-5 mb-lg-0">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end footer -->
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+</body>
+</html>
